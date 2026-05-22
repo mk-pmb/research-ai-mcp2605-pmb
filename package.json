@@ -1,0 +1,24 @@
+{ "name": "research-ai-mcp2605-pmb",
+  "version": "0.0.0",
+  "description": "Experimental MCP (Model Context Protocol) toolbox for sharing my local git repos and notes with an AI.",
+  "keywords": ["ai", "mcp"],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/research-ai-mcp2605-pmb/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/research-ai-mcp2605-pmb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/research-ai-mcp2605-pmb/issues"
+  },
+  "contributors": [],
+
+  "private": true, "license": "ISC",
+
+  "scripts": { "test": "echo E: 'No tests yet!'; exit 2" },
+  "directories": { "test": "test" },
+
+
+  "engines": { "npm": ">=7.0.0", "bash": ">=5.0.0" }
+}
