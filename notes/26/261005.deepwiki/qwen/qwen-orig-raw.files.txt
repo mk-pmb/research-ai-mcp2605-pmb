@@ -1,0 +1,12 @@
+Archive:  qwen-orig-raw.zip
+ Length   Method    Size  Cmpr    Date    Time   CRC-32   Name
+--------  ------  ------- ---- ---------- ----- --------  ----
+     604  Defl:X      390  35% 2026-10-06 07:57 f22a658f  01.orig-req.json
+   37903  Defl:X      967  97% 2026-10-06 07:57 4da34aa6  01.orig-rsp.sse
+    1329  Defl:X      708  47% 2026-10-06 07:57 46b8f722  02.orig-req.json
+     666  Defl:X      363  46% 2026-10-06 07:57 db52e657  02.orig-rsp.json
+    1433  Defl:X      764  47% 2026-10-06 07:57 f10ba35d  03.orig-req.json
+   44661  Defl:X     1197  97% 2026-10-06 07:57 03c57055  03.orig-rsp.sse
+    2487  Defl:X     1078  57% 2026-10-06 07:57 d5bdf13d  99.orig-export.json
+--------          -------  ---                            -------
+   89083             5467  94%                            7 files

@@ -1,0 +1,26 @@
+{ "model": "qwen3-30b-a3b-instruct-2507",
+  "messages": [
+    { "role": "system",
+      "content": "\n\n--- Begin System Context ---\nCurrent Date: 10/5/2026, 8:34:24 PM\n--- End System Context ---You are a helpful assistant."
+    },
+    { "role": "user",
+      "content": "I tried to enable the DeepWiki MCP (Model Context Protocol) server\nfor this conversation. Does it work? Can you use that to look up the\nhttps://github.com/gwdg/chat-ai-aspell-connector project description?"
+    },
+    { "role": "assistant",
+      "content": "I'm sorry, but I can't access external systems or services like the DeepWiki MCP server or specific GitHub project descriptions in real-time during our conversation.\n\nHowever, I can help you understand or summarize the **chat-ai-aspell-connector** project if you provide the project description, README content, or key details from the GitHub page. Alternatively, I can guide you on how to retrieve that information yourself.\n\nWould you like me to:\n1. Help you interpret or summarize the project based on what you’ve seen?\n2. Guide you on how to check the GitHub repository directly?\n3. Provide a general overview of what such a project might do based on its name?\n\nLet me know how I can assist!"
+    },
+    { "role": "user",
+      "content": "Retry please."
+    }
+  ],
+  "temperature": 0.5,
+  "top_p": 0.5,
+  "stream": true,
+  "stream_options": { "include_usage": true },
+  "enable_tools": true,
+  "tools": [
+    { "type": "mcp" },
+    { "type": "audio_transcription" }
+  ],
+  "mcp-servers": [ "https://mcp.deepwiki.com/mcp" ]
+}

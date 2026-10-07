@@ -1,0 +1,316 @@
+data: {±
+  "id": "chatcmpl-8157ab324ebd3238"
+  "object": "chat.completion.chunk"
+  "created": 1791225057
+  "model": "qwen3-30b-a3b-instruct-2507"
+  "choices.0.index": 0
+  "choices.0.delta.role": "assistant"
+  "choices.0.delta.content": ""
+  "choices.0.logprobs": null
+  "choices.0.finish_reason": null
+  "prompt_token_ids": null
+  "prompt_text": null
+±}
++:NONE:content
++"I"
+data: {± "choices.0.token_ids": null ±}
++"'m"
+data: {=}
++" sorry"
+data: {=}
++","
+data: {=}
++" but"
+data: {=}
++" I"
+data: {=}
++" can"
+data: {=}
++"'t"
+data: {=}
++" access"
+data: {=}
++" external"
+data: {=}
++" systems"
+data: {=}
++" or"
+data: {=}
++" services"
+data: {=}
++" like"
+data: {=}
++" the"
+data: {=}
++" Deep"
+data: {=}
++"Wiki"
+data: {=}
++" MCP"
+data: {=}
++" server"
+data: {=}
++" or"
+data: {=}
++" specific"
+data: {=}
++" GitHub"
+data: {=}
++" project"
+data: {=}
++" descriptions"
+data: {=}
++" in"
+data: {=}
++" real"
+data: {=}
++"-time"
+data: {=}
++" during"
+data: {=}
++" our"
+data: {=}
++" conversation"
+data: {=}
++".\n\n"
+data: {=}
++"However"
+data: {=}
++","
+data: {=}
++" I"
+data: {=}
++" can"
+data: {=}
++" help"
+data: {=}
++" you"
+data: {=}
++" understand"
+data: {=}
++" or"
+data: {=}
++" summarize"
+data: {=}
++" the"
+data: {=}
++" **"
+data: {=}
++"chat"
+data: {=}
++"-"
+data: {=}
++"ai"
+data: {=}
++"-"
+data: {=}
++"asp"
+data: {=}
++"ell"
+data: {=}
++"-"
+data: {=}
++"connector"
+data: {=}
++"**"
+data: {=}
++" project"
+data: {=}
++" if"
+data: {=}
++" you"
+data: {=}
++" provide"
+data: {=}
++" the"
+data: {=}
++" project"
+data: {=}
++" description"
+data: {=}
++","
+data: {=}
++" README"
+data: {=}
++" content"
+data: {=}
++","
+data: {=}
++" or"
+data: {=}
++" key"
+data: {=}
++" details"
+data: {=}
++" from"
+data: {=}
++" the"
+data: {=}
++" GitHub"
+data: {=}
++" page"
+data: {=}
++"."
+data: {=}
++" Alternatively"
+data: {=}
++","
+data: {=}
++" I"
+data: {=}
++" can"
+data: {=}
++" guide"
+data: {=}
++" you"
+data: {=}
++" on"
+data: {=}
++" how"
+data: {=}
++" to"
+data: {=}
++" retrieve"
+data: {=}
++" that"
+data: {=}
++" information"
+data: {=}
++" yourself"
+data: {=}
++".\n\n"
+data: {=}
++"Would"
+data: {=}
++" you"
+data: {=}
++" like"
+data: {=}
++" me"
+data: {=}
++" to"
+data: {=}
++":\n"
+data: {=}
++"1"
+data: {=}
++"."
+data: {=}
++" Help"
+data: {=}
++" you"
+data: {=}
++" interpret"
+data: {=}
++" or"
+data: {=}
++" summarize"
+data: {=}
++" the"
+data: {=}
++" project"
+data: {=}
++" based"
+data: {=}
++" on"
+data: {=}
++" what"
+data: {=}
++" you"
+data: {=}
++"’ve"
+data: {=}
++" seen"
+data: {=}
++"?\n"
+data: {=}
++"2"
+data: {=}
++"."
+data: {=}
++" Guide"
+data: {=}
++" you"
+data: {=}
++" on"
+data: {=}
++" how"
+data: {=}
++" to"
+data: {=}
++" check"
+data: {=}
++" the"
+data: {=}
++" GitHub"
+data: {=}
++" repository"
+data: {=}
++" directly"
+data: {=}
++"?\n"
+data: {=}
++"3"
+data: {=}
++"."
+data: {=}
++" Provide"
+data: {=}
++" a"
+data: {=}
++" general"
+data: {=}
++" overview"
+data: {=}
++" of"
+data: {=}
++" what"
+data: {=}
++" such"
+data: {=}
++" a"
+data: {=}
++" project"
+data: {=}
++" might"
+data: {=}
++" do"
+data: {=}
++" based"
+data: {=}
++" on"
+data: {=}
++" its"
+data: {=}
++" name"
+data: {=}
++"?\n\n"
+data: {=}
++"Let"
+data: {=}
++" me"
+data: {=}
++" know"
+data: {=}
++" how"
+data: {=}
++" I"
+data: {=}
++" can"
+data: {=}
++" assist"
+data: {=}
++"!"
+data: {=}
+data: {±
+  "choices.0.finish_reason": "stop"
+  "choices.0.stop_reason": null
+±}
+data: {±
+  "usage.prompt_tokens": 103
+  "usage.total_tokens": 249
+  "usage.completion_tokens": 146
+  "system_fingerprint": "vllm-0.22.1-f1666f6d"
+±}
+data: [DONE]
++:content:

@@ -1,0 +1,19 @@
+{ "model": "qwen3-30b-a3b-instruct-2507",
+  "messages": [
+    { "role": "system",
+      "content": "\n\n--- Begin System Context ---\nCurrent Date: 10/5/2026, 8:30:56 PM\n--- End System Context ---You are a helpful assistant."
+    },
+    { "role": "user",
+      "content": "I tried to enable the DeepWiki MCP (Model Context Protocol) server\nfor this conversation. Does it work? Can you use that to look up the\nhttps://github.com/gwdg/chat-ai-aspell-connector project description?"
+    }
+  ],
+  "temperature": 0.5,
+  "top_p": 0.5,
+  "stream": true,
+  "stream_options": { "include_usage": true },
+  "enable_tools": true,
+  "tools": [
+    { "type": "mcp" },
+    { "type": "audio_transcription" }
+  ]
+}

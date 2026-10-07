@@ -1,0 +1,377 @@
+data: {±
+  "id": 1791225266
+  "object": "chat.completion.chunk"
+  "created": 1791225266
+  "choices.0.index": 0
+  "choices.0.delta.tool_calls.0.id": "mcp.1791225266"
+  "choices.0.delta.tool_calls.0.type": "function"
+  "choices.0.delta.tool_calls.0.function.name": "mcp.event"
+  "choices.0.delta.tool_calls.0.function.arguments›event": "call"
+  "choices.0.delta.tool_calls.0.function.arguments›server": "https://mcp.deepwiki.com/mcp"
+  "choices.0.delta.tool_calls.0.function.arguments›function": "read_wiki_structure"
+  "choices.0.delta.tool_calls.0.function.arguments›arguments›repoName": "gwdg/chat-ai-aspell-connector"
+  "choices.0.finish_reason": null
+±}
+data: {±
+  "id": "chatcmpl-8fbf46758ae62ee7"
+  "created": 1791225269
+  "model": "qwen3-30b-a3b-instruct-2507"
+  "choices.0.delta.role": "assistant"
+  "choices.0.delta.content": ""
+  "choices.0.logprobs": null
+  "prompt_token_ids": null
+  "prompt_text": null
+±}
++:NONE:content
++"It"
+data: {± "choices.0.token_ids": null ±}
++" seems"
+data: {=}
++" the"
+data: {=}
++" repository"
+data: {=}
++" `"
+data: {=}
++"g"
+data: {=}
++"wd"
+data: {=}
++"g"
+data: {=}
++"/chat"
+data: {=}
++"-"
+data: {=}
++"ai"
+data: {=}
++"-"
+data: {=}
++"asp"
+data: {=}
++"ell"
+data: {=}
++"-"
+data: {=}
++"connector"
+data: {=}
++"`"
+data: {=}
++" is"
+data: {=}
++" not"
+data: {=}
++" currently"
+data: {=}
++" indexed"
+data: {=}
++" in"
+data: {=}
++" Deep"
+data: {=}
++"Wiki"
+data: {=}
++","
+data: {=}
++" which"
+data: {=}
++" is"
+data: {=}
++" why"
+data: {=}
++" the"
+data: {=}
++" system"
+data: {=}
++" couldn"
+data: {=}
++"'t"
+data: {=}
++" retrieve"
+data: {=}
++" its"
+data: {=}
++" documentation"
+data: {=}
++" or"
+data: {=}
++" structure"
+data: {=}
++"."
+data: {=}
++" This"
+data: {=}
++" is"
+data: {=}
++" likely"
+data: {=}
++" because"
+data: {=}
++" the"
+data: {=}
++" repository"
+data: {=}
++" hasn"
+data: {=}
++"'t"
+data: {=}
++" been"
+data: {=}
++" added"
+data: {=}
++" to"
+data: {=}
++" the"
+data: {=}
++" Deep"
+data: {=}
++"Wiki"
+data: {=}
++" index"
+data: {=}
++" yet"
+data: {=}
++".\n\n"
+data: {=}
++"To"
+data: {=}
++" resolve"
+data: {=}
++" this"
+data: {=}
++":\n"
+data: {=}
++"1"
+data: {=}
++"."
+data: {=}
++" Visit"
+data: {=}
++" ["
+data: {=}
++"https"
+data: {=}
++"://"
+data: {=}
++"deep"
+data: {=}
++"wiki"
+data: {=}
++".com"
+data: {=}
++"/g"
+data: {=}
++"wd"
+data: {=}
++"g"
+data: {=}
++"/chat"
+data: {=}
++"-"
+data: {=}
++"ai"
+data: {=}
++"-"
+data: {=}
++"asp"
+data: {=}
++"ell"
+data: {=}
++"-"
+data: {=}
++"connector"
+data: {=}
++"]("
+data: {=}
++"https"
+data: {=}
++"://"
+data: {=}
++"deep"
+data: {=}
++"wiki"
+data: {=}
++".com"
+data: {=}
++"/g"
+data: {=}
++"wd"
+data: {=}
++"g"
+data: {=}
++"/chat"
+data: {=}
++"-"
+data: {=}
++"ai"
+data: {=}
++"-"
+data: {=}
++"asp"
+data: {=}
++"ell"
+data: {=}
++"-"
+data: {=}
++"connector"
+data: {=}
++")"
+data: {=}
++" to"
+data: {=}
++" manually"
+data: {=}
++" index"
+data: {=}
++" the"
+data: {=}
++" repository"
+data: {=}
++".\n"
+data: {=}
++"2"
+data: {=}
++"."
+data: {=}
++" Once"
+data: {=}
++" indexed"
+data: {=}
++","
+data: {=}
++" you"
+data: {=}
++" can"
+data: {=}
++" use"
+data: {=}
++" Deep"
+data: {=}
++"Wiki"
+data: {=}
++" to"
+data: {=}
++" access"
+data: {=}
++" its"
+data: {=}
++" documentation"
+data: {=}
++","
+data: {=}
++" structure"
+data: {=}
++","
+data: {=}
++" and"
+data: {=}
++" content"
+data: {=}
++".\n\n"
+data: {=}
++"Alternatively"
+data: {=}
++","
+data: {=}
++" I"
+data: {=}
++" can"
+data: {=}
++" help"
+data: {=}
++" you"
+data: {=}
++" explore"
+data: {=}
++" the"
+data: {=}
++" project"
+data: {=}
++" if"
+data: {=}
++" you"
+data: {=}
++" provide"
+data: {=}
++":\n"
+data: {=}
++"-"
+data: {=}
++" The"
+data: {=}
++" project"
+data: {=}
++"'s"
+data: {=}
++" README"
+data: {=}
++" or"
+data: {=}
++" description"
+data: {=}
++"\n"
+data: {=}
++"-"
+data: {=}
++" A"
+data: {=}
++" link"
+data: {=}
++" to"
+data: {=}
++" the"
+data: {=}
++" GitHub"
+data: {=}
++" repository"
+data: {=}
++"\n"
+data: {=}
++"-"
+data: {=}
++" Any"
+data: {=}
++" specific"
+data: {=}
++" questions"
+data: {=}
++" about"
+data: {=}
++" its"
+data: {=}
++" functionality"
+data: {=}
++"\n\n"
+data: {=}
++"Let"
+data: {=}
++" me"
+data: {=}
++" know"
+data: {=}
++" how"
+data: {=}
++" you"
+data: {=}
++"'d"
+data: {=}
++" like"
+data: {=}
++" to"
+data: {=}
++" proceed"
+data: {=}
++"!"
+data: {=}
+data: {±
+  "choices.0.finish_reason": "stop"
+  "choices.0.stop_reason": null
+±}
+data: {±
+  "usage.prompt_tokens": 744
+  "usage.total_tokens": 915
+  "usage.completion_tokens": 171
+  "system_fingerprint": "vllm-0.22.1-f1666f6d"
+±}
+data: [DONE]
++:content:

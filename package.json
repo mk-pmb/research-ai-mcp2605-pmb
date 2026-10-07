@@ -18,7 +18,19 @@
 
   "scripts": { "test": "echo E: 'No tests yet!'; exit 2" },
   "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb",
+    "env": { "browser": true }
+  },
+
+  "dependencies": {
+    "compactjson": "^0.1.2"
+  },
+  "devDependencies": {
+    "eslint-config-nodejs-pmb": "^0.3.14",
+    "eslint-plugin-json-light-pmb": "^1.0.7",
+    "eslint-plugin-n": "^17.16.2"
+  },
 
 
-  "engines": { "npm": ">=7.0.0", "bash": ">=5.0.0" }
+  "engines": { "npm": ">=7.0.0", "bash": ">=5.0.0", "node": ">=24.0.0" }
 }

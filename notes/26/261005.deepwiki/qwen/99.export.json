@@ -1,0 +1,29 @@
+{ "title": "DeepWiki MCP Server Setup",
+  "temperature": 0.5,
+  "enable_tools": true,
+  "mcp_servers": "https://mcp.deepwiki.com/mcp",
+  "top_p": 0.5,
+  "tools": [
+    { "type": "mcp" }
+  ],
+  "model": "qwen3-30b-a3b-instruct-2507",
+  "model-name": "Qwen 3 30B A3B Instruct 2507",
+  "messages": [
+    { "role": "system",
+      "feedback": {},
+      "content": "You are a helpful assistant."
+    },
+    { "role": "user",
+      "content": "I tried to enable the DeepWiki MCP (Model Context Protocol) server\nfor this conversation. Does it work? Can you use that to look up the\nhttps://github.com/gwdg/chat-ai-aspell-connector project description?"
+    },
+    { "role": "assistant",
+      "content": "I'm sorry, but I can't access external systems or services like the DeepWiki MCP server or specific GitHub project descriptions in real-time during our conversation.\n\nHowever, I can help you understand or summarize the **chat-ai-aspell-connector** project if you provide the project description, README content, or key details from the GitHub page. Alternatively, I can guide you on how to retrieve that information yourself.\n\nWould you like me to:\n1. Help you interpret or summarize the project based on what you’ve seen?\n2. Guide you on how to check the GitHub repository directly?\n3. Provide a general overview of what such a project might do based on its name?\n\nLet me know how I can assist!"
+    },
+    { "role": "user",
+      "content": "Retry please."
+    },
+    { "role": "assistant",
+      "content": "<think>Calling MCP server: https://mcp.deepwiki.com/mcp\n\nfunction: `read_wiki_structure` with args: `{\"repoName\": \"gwdg/chat-ai-aspell-connector\"}`\n\n</think>It seems the repository `gwdg/chat-ai-aspell-connector` is not currently indexed in DeepWiki, which is why the system couldn't retrieve its documentation or structure. This is likely because the repository hasn't been added to the DeepWiki index yet.\n\nTo resolve this:\n1. Visit [https://deepwiki.com/gwdg/chat-ai-aspell-connector](https://deepwiki.com/gwdg/chat-ai-aspell-connector) to manually index the repository.\n2. Once indexed, you can use DeepWiki to access its documentation, structure, and content.\n\nAlternatively, I can help you explore the project if you provide:\n- The project's README or description\n- A link to the GitHub repository\n- Any specific questions about its functionality\n\nLet me know how you'd like to proceed!"
+    }
+  ]
+}

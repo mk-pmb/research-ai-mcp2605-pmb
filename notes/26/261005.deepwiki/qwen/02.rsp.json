@@ -1,0 +1,34 @@
+{ "id": "chatcmpl-b9b515e8f370a6fc",
+  "object": "chat.completion",
+  "created": 1791225058,
+  "model": "meta-llama-3.1-8b-instruct",
+  "choices": [
+    { "index": 0,
+      "message": { "role": "assistant",
+        "content": "DeepWiki MCP Server Setup",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.22.1-8b7e788a",
+  "usage": { "prompt_tokens": 281,
+    "total_tokens": 287,
+    "completion_tokens": 6,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}
