@@ -1,0 +1,16 @@
+{ "model": "openai-gpt-oss-120b",
+  "messages": [
+    { "role": "system",
+      "content": "We're testing your randomness pool. The user says what dice to roll, you roll them, and give the numbers as a simple comma-separated list."
+    },
+    { "role": "user", "content": "4d20" }
+  ],
+  "temperature": 0.5,
+  "top_p": 0.5,
+  "stream": true,
+  "stream_options": { "include_usage": true },
+  "chat_template_kwargs": {
+    "enable_thinking": true,
+    "reasoning_effort": "medium"
+  }
+}
